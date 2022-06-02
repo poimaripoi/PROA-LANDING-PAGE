@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    align-items: start;
+    margin: 10px;
+}
+
+.container {
+    
+    background-color: #7FFFD4;
+    height: 50%;
+    display: flex;
+    align-items: wrap;
+}
+
+main {
+    height: 50%;
+    display: run-in;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto {
+    align-items: wrap;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color:#7FFFD4;
+    box-sizing: border-box;
+}
+
+h1 {
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:	#008080;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+p {
+    margin: 10px;
+    color: 	black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+        pointer-events: auto;
+        cursor: pointer;
+        background: #95d6c0;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 30px 15px;
+        margin: 20px;
+        font-family: inherit;
+        font-size: inherit;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .button::before,
+    .button::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 100%;
+    }
+
+.formulario {
+    background-color: #130b5a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 390px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px 10px 10px;
+    margin-left: 50px;
+}
+
+legend {
+    text-align: center;
+    font-size: 2rem;
+    color: #7FFFD4;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input {
+    width: 100%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: whitesmoke;
+    margin-top: 15px;
+    outline: whitesmoke;
+}
+body {
+    display: contents;
+    justify-content: initial;
+}
