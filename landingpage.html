@@ -5,36 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     
     <link rel= "stylesheet" href="style.css">
 </head>
 <body>
-        <header>
-        <img src="https://image.flaticon.com/icons/png/128/3094/3094371.png" width="100" height="100"/>
-            <h1>O que é uma landing page?</h1>
-        </header>    
 
-            <section class="container">
-        <main>
-            <div class="texto">
-            <p>Landing Page é uma página que possui todos os elementos voltados à conversão do visitante em Lead, oportunidade ou cliente. </p>
-            <p>Também conhecidas como páginas de aterrissagem ou páginas de conversão, as Landing Pages são muito usadas em campanhas de Marketing Digital, pois costumam ter altas taxas de conversão.</p>    
+    <header class="cabecalho">
+        <img class="imagem__cabecalho" src="https://cdn-icons-png.flaticon.com/512/3094/3094371.png" />
+        <div class="texto__cabecalho">
+            <p class="titulo__cabecalho">Landing page</p>
+            <p class="subtitulo__cabecalho">Entenda o que é uma Landing Page</p>
+        </div>
+        
+    </header>    
+
+
+    <main>
+        <section class="primeiro">
+            <div class="explicacao">
+                <p class="subtitulo__explicacao">O que é uma Landing Page</p>
+                <p class="texto__explicacao">
+                    Landing Page é uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente.
+                    Também conhecidas como páginas de aterrissagem ou páginas de conversão, as Landing Pages são muito usadas em campanhas de Marketing Digital, pois costumam ter altas taxas de conversão.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zATcsZ9VA2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-                <div class="formulario">
-                    <form action="">
-                        <fieldset>
-                            <legend>Informações para contato</legend>
-                                <div class="dados">
-                                    <input type="text" placeholder="Nome Completo">
-                                    <input type="email" placeholder="Email">
-                                    <input type="password" placeholder="Senha">
-                                    <input type="password" placeholder="Confirmar senha">     
-                                </div>
-                           <p><button type="submit">Concluir</button></p>    
-                        </fieldset>
-                    </form>
-                </div> 
-        </main> 
-    </section>
+
+            <div class="formulario">
+                <form action="">
+                    <fieldset>
+                        <legend>Receba as novidades</legend>
+                            <div class="dados">
+                                <input type="text" placeholder="Nome Completo">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Senha">
+                                <input type="password" placeholder="Confirmar senha">     
+                            </div>
+                        <p><button type="submit">Concluir</button></p>    
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section class="segundo">
+            <div class="beneficio">
+                <p class="descricao__beneficio"><img src="https://cdn-icons-png.flaticon.com/512/151/151770.png" alt="icone beneficio relogio" class="icon__beneficio">Rápido</p>
+            </div>
+
+            <div class="beneficio">
+                <p class="descricao__beneficio"><img src="https://cdn-icons.flaticon.com/png/512/4592/premium/4592937.png?token=exp=1654624295~hmac=87227ba2c279b11c70e434ade06a3937" alt="icone beneficio relogio" class="icon__beneficio">Eficaz</p>
+            </div>
+
+            <div class="beneficio">
+                <p class="descricao__beneficio"><img src="https://cdn-icons-png.flaticon.com/512/948/948255.png" alt="icone beneficio relogio" class="icon__beneficio">Pratico</p>
+            </div>
+        </section>
+
+        <section class="terceiro">
+            <p class="titulo__terceiro">Avaliações</p>
+            <div class="avaliacoes">
+                <div class="depoimento">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="icone beneficio relogio" class="icon__depoimento">
+                    <p class="depoimento__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident aut eos, accusantium fuga voluptas ipsam sapiente deserunt, omnis minima, blanditiis odit! Assumenda aperiam culpa vitae nesciunt! Necessitatibus, odit. Nobis.</p>
+                </div>
+                <div class="depoimento">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="icone beneficio relogio" class="icon__depoimento">
+                    <p class="depoimento__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident aut eos, accusantium fuga voluptas ipsam sapiente deserunt, omnis minima, blanditiis odit! Assumenda aperiam culpa vitae nesciunt! Necessitatibus, odit. Nobis.</p>
+                </div>
+            </div>
+            
+        </section>
+             
+    </main> 
 </body>
 </html>
